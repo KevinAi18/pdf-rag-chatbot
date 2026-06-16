@@ -19,3 +19,10 @@
 - st.file_uploader handles PDF uploads from browser 
 - st.chat_message renders user and assistant bubbles cleanly 
 - Session state stores chat history across multiple queries 
+ 
+## 2026-06-19 
+### Memory Management in RAG Chatbot 
+- Conversation memory stores previous QA pairs for context 
+- Buffer memory keeps last N messages to avoid token overflow 
+- Summary memory compresses old turns into short summary 
+- LangChain ConversationBufferWindowMemory used for implementation 
