@@ -26,3 +26,10 @@
 - Buffer memory keeps last N messages to avoid token overflow 
 - Summary memory compresses old turns into short summary 
 - LangChain ConversationBufferWindowMemory used for implementation 
+ 
+## 2026-06-21 
+### Hybrid Search Implementation Notes 
+- Hybrid search combines dense vector search with BM25 keyword search 
+- Dense search handles semantic meaning and context understanding 
+- BM25 handles exact keyword matches and rare technical terms 
+- RRF algorithm merges ranked results from both search methods 
