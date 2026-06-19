@@ -40,3 +40,10 @@
 - PyMuPDF extracts TOC with page numbers and heading hierarchy 
 - TOC used to split PDF into logical sections before chunking 
 - Section aware chunking improves retrieval precision in RAG 
+ 
+## 2026-06-24 
+### PDF Table of Contents Parsing Notes 
+- TOC extraction helps structure document for better chunking 
+- PyMuPDF extracts TOC with page numbers and heading hierarchy 
+- TOC used to split PDF into logical sections before chunking 
+- Section aware chunking improves retrieval precision in RAG 
