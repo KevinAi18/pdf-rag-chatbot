@@ -47,3 +47,10 @@
 - PyMuPDF extracts TOC with page numbers and heading hierarchy 
 - TOC used to split PDF into logical sections before chunking 
 - Section aware chunking improves retrieval precision in RAG 
+ 
+## 2026-06-26 
+### Citation Generation in RAG Notes 
+- Citations link generated answer back to source document chunks 
+- Chunk metadata stores page number and source file for tracing 
+- LLM prompted to include chunk id when generating final answer 
+- Citations improve trust and let users verify chatbot answers 
