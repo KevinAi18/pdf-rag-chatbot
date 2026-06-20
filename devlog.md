@@ -54,3 +54,10 @@
 - Chunk metadata stores page number and source file for tracing 
 - LLM prompted to include chunk id when generating final answer 
 - Citations improve trust and let users verify chatbot answers 
+ 
+## 2026-06-28 
+### Query Rewriting in RAG Notes 
+- Query rewriting clarifies ambiguous or incomplete user questions 
+- LLM rephrases query using conversation history for better context 
+- Multi-query generation creates several variations for broader search 
+- Improves retrieval recall especially for follow up questions 
