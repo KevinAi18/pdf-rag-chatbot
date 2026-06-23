@@ -61,3 +61,10 @@
 - LLM rephrases query using conversation history for better context 
 - Multi-query generation creates several variations for broader search 
 - Improves retrieval recall especially for follow up questions 
+ 
+## 2026-07-01 
+### Handling Scanned PDFs Notes 
+- Scanned PDFs contain images of text not selectable text content 
+- Tesseract OCR used to extract text from scanned document images 
+- PaddleOCR tested as alternative with better accuracy on tables 
+- Preprocessing with deskew and denoise improves OCR accuracy 
