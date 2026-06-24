@@ -68,3 +68,10 @@
 - Tesseract OCR used to extract text from scanned document images 
 - PaddleOCR tested as alternative with better accuracy on tables 
 - Preprocessing with deskew and denoise improves OCR accuracy 
+ 
+## 2026-07-03 
+### Document Versioning in RAG Notes 
+- Document versioning tracks updates to source PDFs over time 
+- Old embeddings invalidated and replaced when document is updated 
+- Version metadata stored alongside chunks for audit trail 
+- Helps avoid serving outdated information from stale documents 
