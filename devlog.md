@@ -75,3 +75,10 @@
 - Old embeddings invalidated and replaced when document is updated 
 - Version metadata stored alongside chunks for audit trail 
 - Helps avoid serving outdated information from stale documents 
+ 
+## 2026-07-05 
+### Chunk Size Tuning Notes 
+- Smaller chunks improve precision but may lose surrounding context 
+- Larger chunks preserve context but can dilute relevance scoring 
+- 512 to 1024 tokens found to be a reasonable starting range 
+- Parent-child chunking retrieves small chunks but returns full parent 
