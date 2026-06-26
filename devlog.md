@@ -82,3 +82,10 @@
 - Larger chunks preserve context but can dilute relevance scoring 
 - 512 to 1024 tokens found to be a reasonable starting range 
 - Parent-child chunking retrieves small chunks but returns full parent 
+ 
+## 2026-07-07 
+### Feedback Loop for RAG Quality Notes 
+- Thumbs up and down feedback collected on each chatbot answer 
+- Negative feedback logged with full retrieval context for review 
+- Feedback data used to identify weak spots in knowledge base 
+- Periodic review helps prioritize which documents need better chunking 
