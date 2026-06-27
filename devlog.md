@@ -89,3 +89,10 @@
 - Negative feedback logged with full retrieval context for review 
 - Feedback data used to identify weak spots in knowledge base 
 - Periodic review helps prioritize which documents need better chunking 
+ 
+## 2026-07-09 
+### Multi Document Comparison Notes 
+- Users sometimes want to compare information across multiple PDFs 
+- Retrieval expanded to pull relevant chunks from each document 
+- LLM prompted to explicitly structure comparison in final answer 
+- Source attribution per document helps user verify each claim 
