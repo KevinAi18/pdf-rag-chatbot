@@ -160,3 +160,9 @@ In production RAG systems, debugging poor LLM responses requires knowing if the 
 
 ### Q5: How is session isolation and chat history export managed?
 Chat session data is contained entirely within Streamlit's `session_state`, ensuring strict user isolation. The export feature extracts this session state, structures it with query timestamps, the exact model used, source metadata, and downloads it directly as a CSV file. This data can later be used to create fine-tuning datasets or audit user interactions.
+ 
+## Features 
+- Upload and query multiple PDFs at once 
+- Hybrid search combining keyword and semantic retrieval 
+- Source citations linked back to original page numbers 
+- Conversation memory for natural follow up questions 
