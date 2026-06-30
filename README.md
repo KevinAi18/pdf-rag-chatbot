@@ -172,3 +172,8 @@ Chat session data is contained entirely within Streamlit's `session_state`, ensu
 - Streamlit frontend for chat interface 
 - Vector database for semantic search 
 - LangChain for retrieval and chaining logic 
+ 
+## Limitations 
+- Large PDFs over 500 pages may slow down ingestion time 
+- Scanned documents require OCR which can introduce errors 
+- Currently optimized for English language documents only 
