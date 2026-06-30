@@ -166,3 +166,9 @@ Chat session data is contained entirely within Streamlit's `session_state`, ensu
 - Hybrid search combining keyword and semantic retrieval 
 - Source citations linked back to original page numbers 
 - Conversation memory for natural follow up questions 
+ 
+## Tech Stack 
+- FastAPI backend for API endpoints 
+- Streamlit frontend for chat interface 
+- Vector database for semantic search 
+- LangChain for retrieval and chaining logic 
