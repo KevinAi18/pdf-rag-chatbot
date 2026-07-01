@@ -177,3 +177,9 @@ Chat session data is contained entirely within Streamlit's `session_state`, ensu
 - Large PDFs over 500 pages may slow down ingestion time 
 - Scanned documents require OCR which can introduce errors 
 - Currently optimized for English language documents only 
+ 
+## Contributing 
+- Fork the repo and create a descriptive feature branch 
+- Test changes with at least one real PDF document 
+- Keep retrieval logic and UI changes in separate commits 
+- Open a pull request with a clear description and screenshots 
