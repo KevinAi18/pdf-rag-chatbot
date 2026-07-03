@@ -189,3 +189,9 @@ Chat session data is contained entirely within Streamlit's `session_state`, ensu
 - Average query response time under 2 seconds with caching 
 - Hybrid search adds roughly 15 percent overhead vs pure vector search 
 - Supports concurrent ingestion of multiple documents in parallel 
+ 
+## License 
+This project is released under the MIT License. See the LICENSE file for details. 
+ 
+## Acknowledgements 
+Built using LangChain, FastAPI and Streamlit. 
