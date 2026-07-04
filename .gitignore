@@ -209,3 +209,9 @@ __marimo__/
 # Rag Bot
 data/
 temp/
+__pycache__/ 
+*.pyc 
+.env 
+venv/ 
+*.log 
+uploaded_pdfs/ 
