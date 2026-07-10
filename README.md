@@ -195,3 +195,7 @@ This project is released under the MIT License. See the LICENSE file for details
  
 ## Acknowledgements 
 Built using LangChain, FastAPI and Streamlit. 
+ 
+## FAQ 
+Q: Can I query multiple PDFs at the same time? 
+A: Yes, upload multiple files and the chatbot will search across all of them. 
