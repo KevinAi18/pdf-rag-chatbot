@@ -199,3 +199,7 @@ Built using LangChain, FastAPI and Streamlit.
 ## FAQ 
 Q: Can I query multiple PDFs at the same time? 
 A: Yes, upload multiple files and the chatbot will search across all of them. 
+ 
+## Troubleshooting 
+- If PDF upload fails, confirm file size is under the configured limit 
+- If answers seem outdated, re-run ingestion after updating source documents 
