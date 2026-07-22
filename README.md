@@ -204,3 +204,6 @@ A: Yes, upload multiple files and the chatbot will search across all of them.
 ## Troubleshooting 
 - If PDF upload fails, confirm file size is under the configured limit 
 - If answers seem outdated, re-run ingestion after updating source documents 
+ 
+## Design Philosophy 
+Answers are only useful if they can be trusted, so this project treats citations and source traceability as a core feature rather than an afterthought. 
