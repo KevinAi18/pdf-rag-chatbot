@@ -207,3 +207,6 @@ A: Yes, upload multiple files and the chatbot will search across all of them.
  
 ## Design Philosophy 
 Answers are only useful if they can be trusted, so this project treats citations and source traceability as a core feature rather than an afterthought. 
+ 
+## Related Projects 
+Check out other projects in this portfolio for RAG, fine-tuning, and computer vision work. 
